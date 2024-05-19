@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 #  multiprocess thumbnail creator
-#
+#  Script creates thumbnail images from all files in the specified directory and its subdirectories, using multiprocessing to speed up the process.
+#  Cкрипт создает миниатюры изображений (thumbnail) из всех файлов в указанной директории и ее поддиректориях, используя многопроцессорность для ускорения процесса. 
 
 import os
 from datetime import datetime
