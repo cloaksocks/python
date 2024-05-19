@@ -1,7 +1,10 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 # find-geo-tags multiprocessing
+#
 # Search and display GPS geotags from images in the current directory.
+#
+# Поиск и отображение GPS-геотегов на изображениях в текущем каталоге.
 
 from PIL import Image
 import glob, os
