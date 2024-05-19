@@ -1,11 +1,16 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
-# packet-image-resize
+# Packet-image-resizer
+#
+# Batch image compression, compresses all images in the directory,
+# in the directory where the script runs, and its subdirectories recursively,
+# up to specified values, reducing photo resolution, then antialiasing is applied,
+# original photos are not saved, the exif labels of the images are transferred to a new file.
+#
 # Пакетное сжатие изображений, сжимает все изображения в каталоге,
 # в котором запущен скрипт, и в его подкаталогах рекурсивно,
-# до указанных значений, уменьшая разрешение фото, затем применяется antialiasing.
+# до указанных значений, уменьшая разрешение фото, затем применяется antialiasing,
 # оригиналы фото не сохраняются, exif метки изображений переносятся на новый файл.
-
 
 from PIL import Image, ExifTags
 import glob, os
